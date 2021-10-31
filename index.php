@@ -15,6 +15,7 @@ $jk         = "";
 $alamat     = "";
 $kota       = "";
 $email      = "";
+$foto       = "";
 $sukses     = "";
 $error      = "";
 
@@ -52,6 +53,7 @@ if ($op == 'edit')
     $alamat     = $r1['alamat'];
     $kota       = $r1['kota'];
     $email      = $r1['email'];
+    $foto       = $r1['foto'];
 
 
     if ($nim == '') 
